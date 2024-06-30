@@ -23,7 +23,7 @@ Run tests:
 npm test
 ```
 
-Run app without build step:
+Run app in dev mode, without build step:
 
 ```bash
 npm start

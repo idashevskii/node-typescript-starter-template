@@ -1,8 +1,7 @@
 {
   "name": "app",
   "scripts": {
-    "start": "nodemon ./src/index.ts",
-    "start:debug": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'node --inspect=0.0.0.0:9229 --require ts-node/register src/index.ts'",
+    "start": "nodemon",
     "start:prod": "node ./dist/index.js",
     "clean": "rimraf ./dist/",
     "build": "npx tsc -p tsconfig.prod.json",

@@ -3,4 +3,4 @@ WORKDIR /app
 
 ENV NODE_ENV=development
 
-ENTRYPOINT npm install && exec npm run start:debug
+ENTRYPOINT npm install && exec npm run start
