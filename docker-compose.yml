@@ -1,0 +1,7 @@
+services:
+
+  node:
+    build:
+      context: ./
+      network: host
+    restart: always

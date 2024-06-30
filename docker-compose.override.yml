@@ -1,0 +1,14 @@
+services:
+
+  node:
+    build:
+      dockerfile: Dockerfile.dev
+    volumes:
+      - .:/app
+      - dev-node-cache:/root
+    ports:
+      - "9229:9229" # debugger
+      - "3000:3000" # rest api
+
+volumes:
+  dev-node-cache:

@@ -2,12 +2,18 @@
 
 Features:
 
+- Dockerized as dev and prod
+- Hot reload inside dev docker container
 - ES Modules syntax in both sources and tests
-- Unit Testing using Mocha and Chai
+- Unit Testing using Mocha
 - Linting using TSLint
-- Dev launch using node-ts
-- Prod build and launch using node
 - VS Code launch config for debugging
+
+## Docker
+
+```bash
+docker compose up -d --build
+```
 
 ## Usage
 

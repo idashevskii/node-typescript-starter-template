@@ -1,8 +1,8 @@
-import { expect } from 'chai';
-import { sayHello } from './lib.js';
+import * as assert from 'assert';
+import { sayHello } from './lib';
 
 describe('My Library', () => {
   it('Should say hello', () => {
-    expect(sayHello('World')).to.equal('Hello, World');
+    assert.equal(sayHello('World'), 'Hello, World');
   });
 });
